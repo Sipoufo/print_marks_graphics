@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+@theme {
+  /* --- Colors --- */
+  /* Primary: Professional Corporate Blue (Trust, Depth) */
+  --color-brand-blue-50: #eff6ff;
+  --color-brand-blue-100: #dbeafe;
+  --color-brand-blue-500: #3b82f6; /* Action states */
+  --color-brand-blue-700: #1d4ed8;
+  --color-brand-blue-900: #1e3a8a; /* Deep structural backgrounds */
+
+  /* Secondary: Slate for sophisticated, highly readable text */
+  --color-brand-slate-500: #64748b;
+  --color-brand-slate-800: #1e293b;
+  --color-brand-slate-900: #0f172a; /* Primary headings */
+
+  /* Accent: A warm contrast (e.g., Gold/Amber) to make CTAs pop against blue */
+  --color-brand-accent-500: #f59e0b; 
+  --color-brand-accent-600: #d97706;
+
+  /* --- Typography --- */
+  /* Headings: Authoritative, modern sans-serif like 'Outfit' or 'Inter' */
+  --font-heading: 'Outfit', system-ui, sans-serif;
+  /* Body: Highly legible, clean sans-serif */
+  --font-sans: 'Inter', system-ui, sans-serif;
+
+  /* --- Spacing & Layout --- */
+  /* Standardizing section padding to maintain breathing room */
+  --spacing-section-y: 6rem; /* 96px */
+  --spacing-section-y-mobile: 4rem; /* 64px */
+}
+
+/* Global resets and base typography application */
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply font-sans text-brand-slate-800 bg-white antialiased;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading text-brand-slate-900 font-bold tracking-tight;
+  }
+}

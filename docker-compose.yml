@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  print-marks-app:
+    build: .
+    ports:
+      - "8080:80"
+    restart: always
+    deploy:
+      resources:
+        limits:
+          cpus: '0.5'
+          memory: 256M
+        reservations:
+          cpus: '0.1'
+          memory: 128M

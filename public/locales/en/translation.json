@@ -1,0 +1,150 @@
+{
+  "header": {
+    "services": "Services",
+    "method": "Our Method",
+    "about": "About Us",
+    "team": "Our Team",
+    "contact": "Contact",
+    "quote": "Get a Quote"
+  },
+  "hero": {
+    "badge": "Your Full-Suite Creative & Printing Hub",
+    "slogan1": "Making Your Mark,",
+    "slogan2": "Magnificently.",
+    "value_prop": "We transform your ideas into tangible impact. From pixel-perfect graphic design to premium multi-format printing and educational resources, Print Marks graphics is your single-source partner for uncompromising quality and creative execution.",
+    "btn_quote": "Request a Quote",
+    "btn_services": "Explore Services"
+  },
+  "services": {
+    "title": "Our Comprehensive Services",
+    "subtitle": "What We Offer",
+    "items": {
+      "graphic-design": {
+        "title": "Graphic Design",
+        "description": "Crafting compelling visual identities, marketing collateral, and digital assets that capture the essence of your brand and captivate your audience."
+      },
+      "office-services": {
+        "title": "Office Services (Bureau)",
+        "description": "Comprehensive administrative and document management solutions, including binding, laminating, high-volume copying, and professional document finishing."
+      },
+      "printing-general": {
+        "title": "Printing (General)",
+        "description": "High-fidelity, large-scale commercial printing solutions tailored for diverse paper stocks, packaging, and high-impact marketing materials."
+      },
+      "digital-printing": {
+        "title": "Digital Printing",
+        "description": "Fast-turnaround, variable-data printing perfect for short runs, personalized direct mail, and premium on-demand collateral without sacrificing quality."
+      },
+      "screen-printing": {
+        "title": "Screen Printing",
+        "description": "Vibrant, durable, and highly customizable printing for apparel, promotional merchandise, and specialty materials that demand long-lasting color."
+      },
+      "micro-publishing": {
+        "title": "Micro-publishing",
+        "description": "End-to-end support for independent authors and localized publications, transforming manuscripts into beautifully bound, market-ready books and zines."
+      },
+      "educational-materials": {
+        "title": "Educational Materials",
+        "description": "Specialized production of workbooks, study guides, flashcards, and classroom aids designed for durability and optimal learning engagement."
+      },
+      "events": {
+        "title": "Events",
+        "description": "Complete visual and structural support for events, from large-format banners and signage to branded promotional giveaways and customized invitations."
+      },
+      "miscellaneous-services": {
+        "title": "Miscellaneous Services",
+        "description": "Custom, bespoke requests and specialized finishing options—if it requires ink, paper, or creative assembly, we have a solution."
+      }
+    }
+  },
+  "workflow": {
+    "title": "How We Work",
+    "subtitle": "Our 4-step process to perfection",
+    "items": {
+      "discovery": {
+        "title": "Discovery & Consultation",
+        "description": "We analyze your requirements, understand your goals, and define the scope, materials, and timelines needed for your project."
+      },
+      "design": {
+        "title": "Conceptualization & Design",
+        "description": "Our creative team develops drafts, mockups, and digital proofs, collaborating with you to refine the vision until it aligns perfectly with your brand."
+      },
+      "production": {
+        "title": "Production & Execution",
+        "description": "Leveraging our state-of-the-art facilities, we bring the design to life. Whether it’s screen printing, digital output, or micro-publishing, we ensure pristine production quality."
+      },
+      "quality": {
+        "title": "Quality Assurance & Delivery",
+        "description": "Every item undergoes a rigorous quality check before final packaging. We ensure your project is delivered on time, exceeding your expectations."
+      }
+    }
+  },
+  "about": {
+    "title": "Transforming Digital Ideation into Physical Perfection.",
+    "subtitle": "About Us",
+    "mission_title": "Our Mission",
+    "mission_desc": "To empower businesses, educators, and individuals by providing end-to-end design, printing, and publication services that elevate their message and streamline their operational needs.",
+    "vision_title": "Our Vision",
+    "vision_desc": "To be the premier, full-suite creative and printing hub recognized for seamlessly bridging the gap between digital ideation and flawless physical execution.",
+    "values": {
+      "precision": {
+        "title": "Precision",
+        "description": "Every pixel matters; every ink drop is intentional. We pride ourselves on exact execution."
+      },
+      "reliability": {
+        "title": "Reliability",
+        "description": "Trust is our bedrock. We deliver on time, every time, maintaining the highest standards."
+      },
+      "innovation": {
+        "title": "Innovation",
+        "description": "We continuously evolve our techniques, leveraging modern digital and screen printing technologies."
+      },
+      "partnership": {
+        "title": "Partnership",
+        "description": "Your success is our portfolio. We collaborate deeply to ensure the final product exceeds expectations."
+      }
+    }
+  },
+  "team": {
+    "title": "Meet Our Team",
+    "subtitle": "The experts behind your projects",
+    "members": {
+      "alex": { "name": "Alex Rivera", "role": "Lead Designer" },
+      "sam": { "name": "Sam Chen", "role": "Production Manager" },
+      "jordan": { "name": "Jordan Lee", "role": "Client Relations" }
+    }
+  },
+  "contact": {
+    "title": "Let's Build Something Great",
+    "subtitle": "Get in Touch",
+    "heading": "Transform your ideas into reality.",
+    "desc": "Whether you need a full branding package, high-volume printing, or digital collateral, our team is ready to deliver uncompromising quality.",
+    "info": {
+      "phone": "Phone",
+      "email": "Email",
+      "location": "Location",
+      "hours": "Business Hours"
+    },
+    "form": {
+      "title": "Request a Quick Quote",
+      "name_label": "Name",
+      "name_placeholder": "Your full name",
+      "service_label": "Service of Interest",
+      "service_placeholder": "Select a service",
+      "service_multiple": "Multiple / General Inquiry",
+      "message_label": "Message Details",
+      "message_placeholder": "Tell us about your project...",
+      "submit": "Send via WhatsApp",
+      "error": "Please fill out all fields.",
+      "disclaimer": "Faster response times guaranteed. We'll reply within 1-2 hours during business hours."
+    }
+  },
+  "footer": {
+    "desc": "Making Your Mark, Magnificently. We transform your ideas into tangible impact with precision, reliability, and innovation. From concept to physical reality, we are your trusted partner.",
+    "sitemap": "Site Map",
+    "contact": "Contact",
+    "rights": "Print Marks Graphics. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  }
+}
