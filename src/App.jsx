@@ -11,13 +11,12 @@ function App() {
   return (
     <div className="flex min-h-screen flex-col bg-white">
       <Header />
-      
+
       <main className="flex-grow">
         <HeroSection />
         <ServicesSection />
         <WorkflowSection />
         <AboutSection />
-        <TeamSection />
         <ContactSection />
       </main>
 

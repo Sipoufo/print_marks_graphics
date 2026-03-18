@@ -21,21 +21,18 @@ import {
 
 export const servicesData = [
   { id: "graphic-design", icon: PenTool },
-  { id: "office-services", icon: Briefcase },
-  { id: "printing-general", icon: Printer },
-  { id: "digital-printing", icon: MonitorSmartphone },
-  { id: "screen-printing", icon: Droplet },
-  { id: "micro-publishing", icon: BookOpen },
-  { id: "educational-materials", icon: GraduationCap },
-  { id: "events", icon: Tent },
-  { id: "miscellaneous-services", icon: Sparkles }
+  { id: "office-training", icon: GraduationCap },
+  { id: "admin-management", icon: Briefcase },
+  { id: "digital-marketing", icon: MonitorSmartphone },
+  { id: "office-supplies", icon: Printer },
+  { id: "service-provision", icon: Sparkles }
 ]
 
 export const workflowData = [
-  { id: "discovery", step: "1", icon: Search },
-  { id: "design", step: "2", icon: PenTool },
-  { id: "production", step: "3", icon: Printer },
-  { id: "quality", step: "4", icon: CheckCircle }
+  { id: "analysis", step: "1", icon: Search },
+  { id: "strategy", step: "2", icon: Lightbulb },
+  { id: "execution", step: "3", icon: PenTool },
+  { id: "delivery", step: "4", icon: CheckCircle }
 ]
 
 export const coreValuesData = [
@@ -52,11 +49,11 @@ export const teamData = [
 ]
 
 export const contactConfig = {
-  phone: "+1 (555) 123-4567",
-  whatsappNumber: "15551234567",
+  phone: "675 66 51 19 / 6 99 53 65 72",
+  whatsappNumber: "237675665119",
   email: "hello@printmarksgraphics.com",
-  address: "123 Creative Studio Way, Printing District, NY 10001",
-  hours: "Mon - Fri: 9:00 AM - 6:00 PM",
+  address: "Centre commercial du tradate, Yaoundé, Centre, Cameroun",
+  hours: "Mon-Fri: 08h-18h, Sat: 08h-13h",
   socials: {
     instagram: "https://instagram.com/printmarks",
     linkedin: "https://linkedin.com/company/printmarks"

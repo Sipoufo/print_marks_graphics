@@ -5,55 +5,43 @@
     "about": "About Us",
     "team": "Our Team",
     "contact": "Contact",
-    "quote": "Get a Quote"
+    "quote": "Contact Us"
   },
   "hero": {
-    "badge": "Your Full-Suite Creative & Printing Hub",
-    "slogan1": "Making Your Mark,",
-    "slogan2": "Magnificently.",
-    "value_prop": "We transform your ideas into tangible impact. From pixel-perfect graphic design to premium multi-format printing and educational resources, Print Marks graphics is your single-source partner for uncompromising quality and creative execution.",
-    "btn_quote": "Request a Quote",
+    "badge": "Your Full-Suite Creative & Training Hub",
+    "slogan1": "Shaping tomorrow's world",
+    "slogan2": "today.",
+    "value_prop": "We transform your ideas into tangible impact. From high-end graphic design to digital marketing, Print Marks graphics is your single-source partner for uncompromising excellence in Yaoundé.",
+    "btn_quote": "Contact Us",
     "btn_services": "Explore Services"
   },
   "services": {
-    "title": "Our Comprehensive Services",
+    "title": "Our Domains of Expertise",
     "subtitle": "What We Offer",
     "items": {
       "graphic-design": {
-        "title": "Graphic Design",
-        "description": "Crafting compelling visual identities, marketing collateral, and digital assets that capture the essence of your brand and captivate your audience."
+        "title": "Infographics",
+        "description": "High-impact visual design and printing solutions (General, Digital, Bureau) for a powerful brand identity."
       },
-      "office-services": {
-        "title": "Office Services (Bureau)",
-        "description": "Comprehensive administrative and document management solutions, including binding, laminating, high-volume copying, and professional document finishing."
+      "office-training": {
+        "title": "Office Secretarial Training",
+        "description": "Professional training in office tools and administration to boost your career."
       },
-      "printing-general": {
-        "title": "Printing (General)",
-        "description": "High-fidelity, large-scale commercial printing solutions tailored for diverse paper stocks, packaging, and high-impact marketing materials."
+      "admin-management": {
+        "title": "Administrative Management",
+        "description": "Outsourced administrative support and efficient document management to optimize your operations."
       },
-      "digital-printing": {
-        "title": "Digital Printing",
-        "description": "Fast-turnaround, variable-data printing perfect for short runs, personalized direct mail, and premium on-demand collateral without sacrificing quality."
+      "digital-marketing": {
+        "title": "Digital Marketing",
+        "description": "Social media management, online visibility, and digital strategy to propel your web presence."
       },
-      "screen-printing": {
-        "title": "Screen Printing",
-        "description": "Vibrant, durable, and highly customizable printing for apparel, promotional merchandise, and specialty materials that demand long-lasting color."
+      "office-supplies": {
+        "title": "General Trade / Office Equipment Sales",
+        "description": "Supply of high-quality office equipment and stationery for your daily needs."
       },
-      "micro-publishing": {
-        "title": "Micro-publishing",
-        "description": "End-to-end support for independent authors and localized publications, transforming manuscripts into beautifully bound, market-ready books and zines."
-      },
-      "educational-materials": {
-        "title": "Educational Materials",
-        "description": "Specialized production of workbooks, study guides, flashcards, and classroom aids designed for durability and optimal learning engagement."
-      },
-      "events": {
-        "title": "Events",
-        "description": "Complete visual and structural support for events, from large-format banners and signage to branded promotional giveaways and customized invitations."
-      },
-      "miscellaneous-services": {
-        "title": "Miscellaneous Services",
-        "description": "Custom, bespoke requests and specialized finishing options—if it requires ink, paper, or creative assembly, we have a solution."
+      "service-provision": {
+        "title": "Service Provision",
+        "description": "Specialized support for public markets, tenders, and corporate contracts."
       }
     }
   },
@@ -61,47 +49,47 @@
     "title": "How We Work",
     "subtitle": "Our 4-step process to perfection",
     "items": {
-      "discovery": {
-        "title": "Discovery & Consultation",
-        "description": "We analyze your requirements, understand your goals, and define the scope, materials, and timelines needed for your project."
+      "analysis": {
+        "title": "Consultation & Analysis",
+        "description": "Deep understanding of your needs (training, design, or tender files)."
       },
-      "design": {
-        "title": "Conceptualization & Design",
-        "description": "Our creative team develops drafts, mockups, and digital proofs, collaborating with you to refine the vision until it aligns perfectly with your brand."
+      "strategy": {
+        "title": "Strategy & Design",
+        "description": "Tailoring bespoke solutions (curriculum, visuals, or bid files)."
       },
-      "production": {
-        "title": "Production & Execution",
-        "description": "Leveraging our state-of-the-art facilities, we bring the design to life. Whether it’s screen printing, digital output, or micro-publishing, we ensure pristine production quality."
+      "execution": {
+        "title": "Execution & Production",
+        "description": "Materializing your project with extreme precision and high quality standards."
       },
-      "quality": {
-        "title": "Quality Assurance & Delivery",
-        "description": "Every item undergoes a rigorous quality check before final packaging. We ensure your project is delivered on time, exceeding your expectations."
+      "delivery": {
+        "title": "Delivery & Follow-up",
+        "description": "Ensuring total satisfaction and ongoing support after delivery."
       }
     }
   },
   "about": {
-    "title": "Transforming Digital Ideation into Physical Perfection.",
+    "title": "Excellence at the service of your ambitions.",
     "subtitle": "About Us",
     "mission_title": "Our Mission",
-    "mission_desc": "To empower businesses, educators, and individuals by providing end-to-end design, printing, and publication services that elevate their message and streamline their operational needs.",
+    "mission_desc": "Was created to contribute to finding solutions to the development challenges affecting Sub-Saharan Africa in general, and Cameroon in particular. With more than 100 collaborators, we support you in your various missions.",
     "vision_title": "Our Vision",
-    "vision_desc": "To be the premier, full-suite creative and printing hub recognized for seamlessly bridging the gap between digital ideation and flawless physical execution.",
+    "vision_desc": "To become a major player in the field of service provision, professional training and skills development in Sub-Saharan Africa.",
     "values": {
       "precision": {
         "title": "Precision",
-        "description": "Every pixel matters; every ink drop is intentional. We pride ourselves on exact execution."
+        "description": "Every detail matters. We aim for accuracy in all our services."
       },
       "reliability": {
         "title": "Reliability",
-        "description": "Trust is our bedrock. We deliver on time, every time, maintaining the highest standards."
+        "description": "Respect for deadlines and commitments. Your trust is our priority."
       },
       "innovation": {
         "title": "Innovation",
-        "description": "We continuously evolve our techniques, leveraging modern digital and screen printing technologies."
+        "description": "We continuously adapt our methods to the latest technological trends."
       },
       "partnership": {
         "title": "Partnership",
-        "description": "Your success is our portfolio. We collaborate deeply to ensure the final product exceeds expectations."
+        "description": "Your success is our driver. We build lasting and fruitful relationships."
       }
     }
   },
@@ -109,16 +97,25 @@
     "title": "Meet Our Team",
     "subtitle": "The experts behind your projects",
     "members": {
-      "alex": { "name": "Alex Rivera", "role": "Lead Designer" },
-      "sam": { "name": "Sam Chen", "role": "Production Manager" },
-      "jordan": { "name": "Jordan Lee", "role": "Client Relations" }
+      "alex": {
+        "name": "Yvan",
+        "role": "Director"
+      },
+      "sam": {
+        "name": "Sam",
+        "role": "Digital Expert"
+      },
+      "jordan": {
+        "name": "Jordan",
+        "role": "Client Advisor"
+      }
     }
   },
   "contact": {
-    "title": "Let's Build Something Great",
-    "subtitle": "Get in Touch",
+    "title": "Let's Start Your Project Today",
+    "subtitle": "Contact Us",
     "heading": "Transform your ideas into reality.",
-    "desc": "Whether you need a full branding package, high-volume printing, or digital collateral, our team is ready to deliver uncompromising quality.",
+    "desc": "Need training, impactful design, or assistance with a public market? Our team in Yaoundé is ready to help.",
     "info": {
       "phone": "Phone",
       "email": "Email",
@@ -126,21 +123,21 @@
       "hours": "Business Hours"
     },
     "form": {
-      "title": "Request a Quick Quote",
+      "title": "Send us a message",
       "name_label": "Name",
       "name_placeholder": "Your full name",
       "service_label": "Service of Interest",
       "service_placeholder": "Select a service",
       "service_multiple": "Multiple / General Inquiry",
       "message_label": "Message Details",
-      "message_placeholder": "Tell us about your project...",
+      "message_placeholder": "How can we help you?",
       "submit": "Send via WhatsApp",
       "error": "Please fill out all fields.",
-      "disclaimer": "Faster response times guaranteed. We'll reply within 1-2 hours during business hours."
+      "disclaimer": "We generally respond in less than an hour during business hours."
     }
   },
   "footer": {
-    "desc": "Making Your Mark, Magnificently. We transform your ideas into tangible impact with precision, reliability, and innovation. From concept to physical reality, we are your trusted partner.",
+    "desc": "Shaping tomorrow's world today. Your trusted partner in Yaoundé for infographics, training, and strategic management.",
     "sitemap": "Site Map",
     "contact": "Contact",
     "rights": "Print Marks Graphics. All rights reserved.",
