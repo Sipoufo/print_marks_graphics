@@ -91,7 +91,7 @@ sudo docker compose logs -f
 Test the response locally on the VPS:
 ```bash
 curl http://localhost
-# Or the specific port exposed in your docker-compose.yml
+# The app is now mapped to port 80 as defined in docker-compose.yml
 ```
 
 ## 6. Bonus: SSL/HTTPS Setup (Nginx Proxy Manager)
