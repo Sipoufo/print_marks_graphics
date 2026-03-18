@@ -4,7 +4,9 @@ services:
   print-marks-app:
     build: .
     ports:
-      - "80:80"
+      - "8080:80"
+    networks:
+      - app-network
     restart: always
     deploy:
       resources:
@@ -14,3 +16,6 @@ services:
         reservations:
           cpus: '0.1'
           memory: 128M
+networks:
+  app-network:
+    name: app-network

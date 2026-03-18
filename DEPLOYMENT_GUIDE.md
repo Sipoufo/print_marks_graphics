@@ -105,23 +105,18 @@ To securely serve traffic via HTTPS without manually configuring Let's Encrypt c
    sudo ufw allow 443/tcp
    sudo ufw enable
    ```
-3. **Nginx Proxy Manager (NPM):** Deploy NPM in a separate Docker container on the VPS to handle routing and SSL.
-   ```yaml
-   # docker-compose.npm.yml
-   version: '3.8'
-   services:
-     app:
-       image: 'jc21/nginx-proxy-manager:latest'
-       restart: unless-stopped
-       ports:
-         - '80:80'
-         - '81:81'
-         - '443:443'
-       volumes:
-         - ./data:/data
-         - ./letsencrypt:/etc/letsencrypt
+3. **Nginx Proxy Manager (NPM):** Deploy NPM using the provided `docker-compose.proxy.yml`.
+
+   ```bash
+   # First, ensure the shared network exists
+   sudo docker network create app-network
+
+   # Start the application
+   sudo docker compose up -d
+
+   # Start the proxy
+   sudo docker compose -f docker-compose.proxy.yml up -d
    ```
-   Start it: `sudo docker compose -f docker-compose.npm.yml up -d`
 4. **Configuration:**
    - Go to `http://your_vps_ip:81` and log into NPM (Default: `admin@example.com` / `changeme`).
    - Add a "Proxy Host" pointing `printmarks.com` to the internal IP or Docker network name of your `print_marks_graphics` container.
