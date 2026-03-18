@@ -50,7 +50,6 @@ export const teamData = [
 
 export const contactConfig = {
   phone: "675 66 51 19 / 6 99 53 65 72",
-  whatsappNumber: "237675665119",
   email: "hello@printmarksgraphics.com",
   address: "Centre commercial du tradate, Yaoundé, Centre, Cameroun",
   hours: "Mon-Fri: 08h-18h, Sat: 08h-13h",

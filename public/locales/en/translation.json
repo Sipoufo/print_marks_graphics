@@ -131,7 +131,7 @@
       "service_multiple": "Multiple / General Inquiry",
       "message_label": "Message Details",
       "message_placeholder": "How can we help you?",
-      "submit": "Send via WhatsApp",
+      "submit": "Send Message",
       "error": "Please fill out all fields.",
       "disclaimer": "We generally respond in less than an hour during business hours."
     }
