@@ -21,10 +21,15 @@
     "items": {
       "office-training": {
         "title": "Formation en secrétariat bureautique",
-        "items": ["Secrétariat bureautique", "Assistant(e) de direction", "Marketing Digital", "Infographie"]
+        "items": [
+          "Secrétariat bureautique",
+          "Assistant(e) de direction",
+          "Marketing Digital",
+          "Infographie"
+        ]
       },
       "printing": {
-        "title": "Imprimerie",
+        "title": "Imprimerie industrielle",
         "description": "Impression numérique, offset et grand format pour tous vos supports de communication : flyers, affiches, cartes de visite, banderoles et bien plus."
       },
       "admin-management": {

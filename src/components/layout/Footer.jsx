@@ -17,11 +17,6 @@ export default function Footer() {
               <span className="text-xl font-heading font-black tracking-tight text-white">Print Marks <span className="text-brand-blue-400">graphics</span></span>
             </div>
             <p className="text-brand-slate-400 max-w-md text-sm leading-relaxed">{t('footer.desc')}</p>
-            <div className="flex gap-4 pt-2">
-              <a href={contactConfig.socials.instagram} target="_blank" rel="noreferrer" className="flex h-10 w-10 items-center justify-center rounded-full bg-brand-slate-800 text-brand-slate-400 hover:bg-brand-blue-700 hover:text-white transition-colors"><Instagram className="h-5 w-5" /></a>
-              <a href={contactConfig.socials.linkedin} target="_blank" rel="noreferrer" className="flex h-10 w-10 items-center justify-center rounded-full bg-brand-slate-800 text-brand-slate-400 hover:bg-brand-blue-700 hover:text-white transition-colors"><Linkedin className="h-5 w-5" /></a>
-              <a href="#" className="flex h-10 w-10 items-center justify-center rounded-full bg-brand-slate-800 text-brand-slate-400 hover:bg-brand-blue-700 hover:text-white transition-colors"><Twitter className="h-5 w-5" /></a>
-            </div>
           </div>
           <div>
             <h3 className="font-heading font-bold tracking-tight text-white mb-6 uppercase text-sm">{t('footer.sitemap')}</h3>

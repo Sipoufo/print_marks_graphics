@@ -21,10 +21,15 @@
     "items": {
       "office-training": {
         "title": "Office Secretarial Training",
-        "items": ["Office Secretarial Studies", "Executive Assistant", "Digital Marketing", "Graphic Design"]
+        "items": [
+          "Office Secretarial Studies",
+          "Executive Assistant",
+          "Digital Marketing",
+          "Graphic Design"
+        ]
       },
       "printing": {
-        "title": "Printing",
+        "title": "Industrial printing",
         "description": "Digital, offset and large-format printing for all your communication materials: flyers, posters, business cards, banners, and more."
       },
       "admin-management": {

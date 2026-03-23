@@ -22,7 +22,6 @@ import {
 export const servicesData = [
   { id: 'office-training', icon: GraduationCap },
   { id: 'printing', icon: Printer },
-  { id: 'admin-management', icon: Briefcase },
   { id: 'office-supplies', icon: BookOpen },
   { id: 'service-provision', icon: Sparkles },
 ]
@@ -49,7 +48,7 @@ export const teamData = [
 
 export const contactConfig = {
   phone: '675 66 51 19 / 6 99 53 65 72',
-  email: 'hello@printmarksgraphics.com',
+  email: 'contact@printmarksgraphics.cloud',
   address:
     'Direction Générale : carrefour Biyem Assi, (face collège EBANDA)  Yaoundé, Cameroun',
   hours: 'Mon-Fri: 08h-18h, Sat: 08h-13h',
