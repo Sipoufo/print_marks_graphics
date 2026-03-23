@@ -19,21 +19,17 @@
     "title": "Nos Domaines d'Expertise",
     "subtitle": "Ce Que Nous Offrons",
     "items": {
-      "graphic-design": {
-        "title": "Infographie",
-        "description": "Design visuel à fort impact et solutions d'impression (Générale, Numérique, Bureau) pour une identité de marque puissante."
-      },
       "office-training": {
         "title": "Formation en secrétariat bureautique",
-        "description": "Formation professionnelle aux outils de bureau et à l'administration pour booster votre carrière."
+        "items": ["Secrétariat bureautique", "Assistant(e) de direction", "Marketing Digital", "Infographie"]
+      },
+      "printing": {
+        "title": "Imprimerie",
+        "description": "Impression numérique, offset et grand format pour tous vos supports de communication : flyers, affiches, cartes de visite, banderoles et bien plus."
       },
       "admin-management": {
         "title": "Gestion administrative",
         "description": "Support administratif externalisé et gestion documentaire efficace pour optimiser vos opérations."
-      },
-      "digital-marketing": {
-        "title": "Marketing Digital",
-        "description": "Gestion des réseaux sociaux, visibilité en ligne et stratégie digitale pour propulser votre présence sur le web."
       },
       "office-supplies": {
         "title": "Commerce général / Vente de matériel de bureau",

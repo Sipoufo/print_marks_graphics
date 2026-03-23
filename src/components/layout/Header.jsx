@@ -18,25 +18,48 @@ export default function Header() {
               PM
             </div>
             <span className="text-xl font-heading font-black tracking-tight text-brand-slate-900">
-              Print Marks <span className="text-brand-blue-500">graphics</span>
+              Print Mark's <span className="text-brand-blue-500">graphics</span>
             </span>
           </div>
 
           <nav className="hidden md:flex items-center gap-8">
-            <a href="#services" className="text-sm font-semibold text-brand-slate-500 hover:text-brand-blue-700 transition-colors">{t('header.services')}</a>
-            <a href="#method" className="text-sm font-semibold text-brand-slate-500 hover:text-brand-blue-700 transition-colors">{t('header.method')}</a>
-            <a href="#about" className="text-sm font-semibold text-brand-slate-500 hover:text-brand-blue-700 transition-colors">{t('header.about')}</a>
-            <a href="#contact" className="text-sm font-semibold text-brand-slate-500 hover:text-brand-blue-700 transition-colors">{t('header.contact')}</a>
+            <a
+              href="#services"
+              className="text-sm font-semibold text-brand-slate-500 hover:text-brand-blue-700 transition-colors"
+            >
+              {t('header.services')}
+            </a>
+            <a
+              href="#method"
+              className="text-sm font-semibold text-brand-slate-500 hover:text-brand-blue-700 transition-colors"
+            >
+              {t('header.method')}
+            </a>
+            <a
+              href="#about"
+              className="text-sm font-semibold text-brand-slate-500 hover:text-brand-blue-700 transition-colors"
+            >
+              {t('header.about')}
+            </a>
+            <a
+              href="#contact"
+              className="text-sm font-semibold text-brand-slate-500 hover:text-brand-blue-700 transition-colors"
+            >
+              {t('header.contact')}
+            </a>
           </nav>
-          
+
           <div className="hidden md:flex items-center gap-4">
-            <button 
+            <button
               onClick={toggleLanguage}
               className="px-2 py-1 text-xs font-black uppercase tracking-widest text-brand-slate-400 hover:text-brand-blue-700 transition-colors focus:outline-none"
             >
               {i18n.language && i18n.language.startsWith('fr') ? 'EN' : 'FR'}
             </button>
-            <a href="#contact" className="inline-flex h-10 items-center justify-center rounded-lg bg-brand-blue-700 px-6 text-sm font-semibold text-white transition-all hover:bg-brand-blue-900 hover:shadow-md focus:outline-none focus:ring-2 focus:ring-brand-blue-500 focus:ring-offset-2">
+            <a
+              href="#contact"
+              className="inline-flex h-10 items-center justify-center rounded-lg bg-brand-blue-700 px-6 text-sm font-semibold text-white transition-all hover:bg-brand-blue-900 hover:shadow-md focus:outline-none focus:ring-2 focus:ring-brand-blue-500 focus:ring-offset-2"
+            >
               {t('header.quote')}
             </a>
           </div>

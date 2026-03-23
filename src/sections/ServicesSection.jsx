@@ -23,9 +23,18 @@ export default function ServicesSection() {
               <h3 className="mb-3 text-xl font-heading font-bold text-brand-slate-900">
                 {t(`services.items.${service.id}.title`)}
               </h3>
-              <p className="text-brand-slate-500 leading-relaxed flex-grow">
-                {t(`services.items.${service.id}.description`)}
-              </p>
+              {(() => {
+                const items = t(`services.items.${service.id}.items`, { returnObjects: true })
+                return Array.isArray(items) ? (
+                  <ul className="text-brand-slate-500 leading-relaxed flex-grow space-y-1 list-disc list-inside">
+                    {items.map((item, i) => <li key={i}>{item}</li>)}
+                  </ul>
+                ) : (
+                  <p className="text-brand-slate-500 leading-relaxed flex-grow">
+                    {t(`services.items.${service.id}.description`)}
+                  </p>
+                )
+              })()}
             </Card>
           ))}
         </motion.div>

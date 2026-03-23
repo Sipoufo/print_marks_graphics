@@ -19,21 +19,17 @@
     "title": "Our Domains of Expertise",
     "subtitle": "What We Offer",
     "items": {
-      "graphic-design": {
-        "title": "Infographics",
-        "description": "High-impact visual design and printing solutions (General, Digital, Bureau) for a powerful brand identity."
-      },
       "office-training": {
         "title": "Office Secretarial Training",
-        "description": "Professional training in office tools and administration to boost your career."
+        "items": ["Office Secretarial Studies", "Executive Assistant", "Digital Marketing", "Graphic Design"]
+      },
+      "printing": {
+        "title": "Printing",
+        "description": "Digital, offset and large-format printing for all your communication materials: flyers, posters, business cards, banners, and more."
       },
       "admin-management": {
         "title": "Administrative Management",
         "description": "Outsourced administrative support and efficient document management to optimize your operations."
-      },
-      "digital-marketing": {
-        "title": "Digital Marketing",
-        "description": "Social media management, online visibility, and digital strategy to propel your web presence."
       },
       "office-supplies": {
         "title": "General Trade / Office Equipment Sales",
