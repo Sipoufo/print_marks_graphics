@@ -1,8 +1,12 @@
-version: '3.8'
-
 services:
   print-marks-app:
-    build: .
+    container_name: print-marks-app
+    build:
+      context: .
+      args:
+        VITE_EMAIL_SERVICE_ID: ${VITE_EMAIL_SERVICE_ID}
+        VITE_EMAIL_TEMPLATE_ID: ${VITE_EMAIL_TEMPLATE_ID}
+        VITE_EMAIL_PUBLIC_KEY: ${VITE_EMAIL_PUBLIC_KEY}
     networks:
       - app-network
     restart: always
